@@ -52,7 +52,7 @@ table {
 	border-spacing: 0;
 }
 *{
-    background-color:steelblue;
+    background-color:#33587e;
 }
 Header{
     font-size: 60px;
@@ -112,10 +112,12 @@ a{
 }
 .box{
     width:10%;
-    display:flex;
-    flex-wrap:nowrap;
 }
 footer{
-    text-align:center;
-    padding:40px;
+    padding:50px;
+    background-color:#00325a;
+}
+
+.social {
+    background-color:#00325a;
 }
