@@ -23,11 +23,10 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-html{
     /* width:80%;
     max-width:800px;
     margin:0 auto; */
-}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -97,7 +96,7 @@ a{
     padding:20px;
 }
 .image{
-    overflow: hidden;
+    
 }
 .image1{
     width:100%;
@@ -117,7 +116,9 @@ footer{
     padding:50px;
     background-color:#00325a;
 }
+.button{
 
+}
 .social {
     background-color:#00325a;
 }
