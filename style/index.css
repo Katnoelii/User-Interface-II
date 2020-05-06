@@ -46,7 +46,26 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-#title{
-    font-size: 50px;
+Header{
+    font-size: xx-large;
+    margin:20px;
+    display:flex;
+    justify-content:center;
+}
+nav{
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
+.home{
+    padding:0 10px;
+}
+.about{
+    padding:0 10px;
+}
+.contact{
+    padding:0 10px;
+}
+.projects{
+    padding: 0 10px;
 }
