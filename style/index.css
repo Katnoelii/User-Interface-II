@@ -23,9 +23,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-    /* width:80%;
-    max-width:800px;
-    margin:0 auto; */
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -51,13 +48,13 @@ table {
     border-spacing: 0;
 }
 *{
-    background-color:#3e5f7f;
+    background-color:lavenderblush;
     animation-name: serenity;
     animation-duration: 10s;
 }
 @keyframes serenity{
-    from{background-color:#001522;}
-    to{background-color:#3e5f7f;}
+    from{background-color:#00325a;}
+    to{background-color:lavenderblush;}
  }
 Header{
     font-size:60px;
@@ -105,7 +102,11 @@ a:hover{
     font-family:Georgia,serif;
     padding:20px;
 }
-
+.images{
+    Margin:2%;
+    display:flex;
+    justify-content:space-between;
+}
 .image1{
     width:100%;
     height:auto;
@@ -118,6 +119,7 @@ a:hover{
     margin:20px auto;
     width:90%;
 }
+
 .box{
     width:10%;
     height:auto;
