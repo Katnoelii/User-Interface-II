@@ -124,12 +124,19 @@ a:hover{
 @media(max-width:500px){
     .project2 img{
         display:flex;
-        flex-direction:row;
+        flex-wrap:wrap;
+        width:150%;
     }
+@media(min-width:800px){
+    .project2 img{
+        display:flex;
+        flex-wrap:wrap;
+        width:45%;
+    }
+}
     }
 .box{
     width:10%;
-    height:auto;
 }
 
 .box2{
