@@ -51,7 +51,13 @@ table {
 	border-spacing: 0;
 }
 *{
-    background-color:#33587e;
+    background-color:#3e5f7f;
+    animation-name: serenity;
+    animation-duration: 10s;
+}
+@keyframes serenity{
+    from{background-color:#001522;}
+    to{background-color:#3e5f7f;}
 }
 Header{
     font-size: 60px;
