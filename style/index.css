@@ -122,19 +122,18 @@ a:hover{
     width:90%;
 }
 @media(max-width:500px){
-    .project2 img{
-        display:flex;
-        flex-wrap:wrap;
-        width:150%;
+    .project2{
+        flex-flow:row wrap;
     }
-@media(min-width:800px){
-    .project2 img{
-        display:flex;
-        flex-wrap:wrap;
+    .project2.box{
         width:45%;
     }
 }
+@media(max-width:800px){
+    .box{
+        width:5%;
     }
+}
 .box{
     width:10%;
 }
