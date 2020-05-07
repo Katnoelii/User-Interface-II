@@ -1,1 +1,155 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+*{
+    background-color:lavenderblush;
+    animation-name: serenity;
+    animation-duration: 10s;
+}
+@keyframes serenity{
+    from{background-color:#00325a;}
+    to{background-color:lavenderblush;}
+ }
+Header{
+    font-size:60px;
+    margin:40px;
+    display:flex;
+    justify-content:center;
+    font-family: Georgia,serif;
+}
+nav{
+    display:flex;
+    justify-content:center;
+    font-family:Georgia,serif;
+    font-size:20px;
+    padding:10px;
+}
+a{
+    color:thistle;
+}
+a:hover{
+    color:#00325a;
+}
+.home{
+    padding:0 10px;
+}
+.about{
+    padding:0 10px;
+}
+.contact{
+    padding:0 10px;
+}
+.projects{
+    padding:0 10px;
+}
+.title2{
+    display:flex;
+    justify-content:center;
+    padding:20px;
+    font-size:40px;
+    font-family:Georgia,serif;
+}
+.info{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    font-family:Georgia,serif;
+    padding:20px;
+}
+.images{
+    Margin:2%;
+    display:flex;
+    justify-content:space-between;
+}
+.image1{
+    width:100%;
+    height:auto;
+}
+.project2{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    margin:20px auto;
+    width:90%;
+}
+
+.box{
+    width:10%;
+    height:auto;
+}
+
+.box2{
+    width:10%;
+}
+footer{
+    padding:50px;
+    background-color:#00325a;
+}
+.button{
+    font-family:Georgia,serif;
+    color:thistle;
+    text-align: center;
+    background-color:#00325a;
+}
+.social {
+    font-family:Georgia,serif;
+    margin-top: 20px;
+    background-color:#00325a;
+    text-align: center;
+}
+.linkedin{
+    background-color: #00325a;
+}
+.github{
+    background-color:#00325a;
+}
+.tumblr{
+    background-color:#00325a;
+}
