@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-    /* width:80%;
+ /* width:80%;
     max-width:800px;
     margin:0 auto; */
 
@@ -50,18 +50,15 @@ table {
 	border-collapse: collapse;
     border-spacing: 0;
 }
-*{
-    background-color:#3e5f7f;
-    animation-name: serenity;
-    animation-duration: 10s;
+html{
+    font-size:62.5%;
 }
-@keyframes serenity{
-    from{background-color:#001522;}
-    to{background-color:#3e5f7f;}
- }
+*{
+    background-color:lavenderblush;
+}
 Header{
-    font-size:60px;
-    margin:40px;
+    font-size:6rem;
+    margin:2%;
     display:flex;
     justify-content:center;
     font-family: Georgia,serif;
@@ -70,14 +67,14 @@ nav{
     display:flex;
     justify-content:center;
     font-family:Georgia,serif;
-    font-size:20px;
-    padding:10px;
+    font-size:2rem;
+    padding:2rem;
 }
 a{
-    color:thistle;
+    color:#00325a;
 }
 a:hover{
-    color:#00325a;
+    color:thistle;
 }
 .home{
     padding:0 10px;
@@ -94,16 +91,22 @@ a:hover{
 .title2{
     display:flex;
     justify-content:center;
-    padding:20px;
-    font-size:40px;
+    padding:2rem;
+    font-size:4rem;
     font-family:Georgia,serif;
+}
+@media(max-width:500px){
+    .title2{
+        text-align: center;
+    }
 }
 .info{
     display:flex;
     justify-content:center;
     text-align:center;
     font-family:Georgia,serif;
-    padding:20px;
+    padding:2rem;
+    font-size:2rem;
 }
 
 .image1{
