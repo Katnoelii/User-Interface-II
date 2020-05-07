@@ -121,6 +121,12 @@ a:hover{
     margin:20px auto;
     width:90%;
 }
+@media(max-width:500px){
+    .project2 img{
+        display:flex;
+        flex-direction:row;
+    }
+    }
 .box{
     width:10%;
     height:auto;
