@@ -64,10 +64,14 @@ nav{
     display:flex;
     justify-content:center;
     font-family:Georgia,serif;
+    font-size:20px;
     padding:10px;
 }
 a{
     color:thistle;
+}
+a:hover{
+    color:#00325a;
 }
 .home{
     padding:0 10px;
@@ -95,11 +99,10 @@ a{
     font-family:Georgia,serif;
     padding:20px;
 }
-.image{
-    
-}
+
 .image1{
     width:100%;
+    height:auto;
 }
 .project2{
     display:flex;
@@ -111,14 +114,34 @@ a{
 }
 .box{
     width:10%;
+    height:auto;
+}
+
+.box2{
+    width:10%;
 }
 footer{
     padding:50px;
     background-color:#00325a;
 }
 .button{
-
+    font-family:Georgia,serif;
+    color:thistle;
+    text-align: center;
+    background-color:#00325a;
 }
 .social {
+    font-family:Georgia,serif;
+    margin-top: 20px;
+    background-color:#00325a;
+    text-align: center;
+}
+.linkedin{
+    background-color: #00325a;
+}
+.github{
+    background-color:#00325a;
+}
+.tumblr{
     background-color:#00325a;
 }
