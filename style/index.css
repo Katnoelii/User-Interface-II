@@ -56,6 +56,13 @@ html{
 *{
     background-color:lavenderblush;
 }
+    animation-name: serenity;
+    animation-duration: 10s;
+}
+@keyframes serenity{
+    from{background-color:#00325a;}
+    to{background-color:lavenderblush;}
+ }
 Header{
     font-size:6rem;
     margin:2%;
@@ -108,6 +115,11 @@ a:hover{
     padding:2rem;
     font-size:2rem;
 }
+.images{
+    Margin:2%;
+    display:flex;
+    justify-content:space-between;
+}
 .image1{
     width:100%;
     height:auto;
@@ -120,6 +132,7 @@ a:hover{
     margin:20px auto;
     width:90%;
 }
+
 .box{
     width:10%;
 }
