@@ -23,6 +23,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+ /* width:80%;
+    max-width:800px;
+    margin:0 auto; */
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -47,8 +50,12 @@ table {
 	border-collapse: collapse;
     border-spacing: 0;
 }
+html{
+    font-size:62.5%;
+}
 *{
     background-color:lavenderblush;
+}
     animation-name: serenity;
     animation-duration: 10s;
 }
@@ -57,8 +64,8 @@ table {
     to{background-color:lavenderblush;}
  }
 Header{
-    font-size:60px;
-    margin:40px;
+    font-size:6rem;
+    margin:2%;
     display:flex;
     justify-content:center;
     font-family: Georgia,serif;
@@ -67,14 +74,14 @@ nav{
     display:flex;
     justify-content:center;
     font-family:Georgia,serif;
-    font-size:20px;
-    padding:10px;
+    font-size:2rem;
+    padding:2rem;
 }
 a{
-    color:thistle;
+    color:#00325a;
 }
 a:hover{
-    color:#00325a;
+    color:thistle;
 }
 .home{
     padding:0 10px;
@@ -91,16 +98,22 @@ a:hover{
 .title2{
     display:flex;
     justify-content:center;
-    padding:20px;
-    font-size:40px;
+    padding:2rem;
+    font-size:4rem;
     font-family:Georgia,serif;
+}
+@media(max-width:500px){
+    .title2{
+        text-align:center;
+    }
 }
 .info{
     display:flex;
     justify-content:center;
     text-align:center;
     font-family:Georgia,serif;
-    padding:20px;
+    padding:2rem;
+    font-size:2rem;
 }
 .images{
     Margin:2%;
@@ -122,7 +135,6 @@ a:hover{
 
 .box{
     width:10%;
-    height:auto;
 }
 
 .box2{
@@ -138,18 +150,56 @@ footer{
     text-align: center;
     background-color:#00325a;
 }
-.social {
+.social{
     font-family:Georgia,serif;
-    margin-top: 20px;
+    margin:1rem;
     background-color:#00325a;
     text-align: center;
 }
+
 .linkedin{
+    color:thistle;
     background-color: #00325a;
+    font-size:1.5rem;
 }
+
 .github{
     background-color:#00325a;
+    color:thistle;
+    font-size:1.5rem;
 }
+
 .tumblr{
     background-color:#00325a;
+    color: thistle;
+    font-size:1.5rem;
+}
+
+@media(max-width:500px){
+    .project2{
+        flex-flow:row wrap;
+        justify-content:center;
+    }
+    .box{
+        width:48%;
+        margin-bottom: 2rem;
+    }
+    .boxtect{
+        width:90%;
+    }
+}
+@media(max-width:800px){
+    .projet2{
+        flex-flow: row wrap;
+        justify-content:space-around;
+    }
+    .box{
+        width:43%;
+
+    }
+    .boxtext{
+        text-align:center;
+        font-size:1.8rem;
+        width:90%
+    }
 }
